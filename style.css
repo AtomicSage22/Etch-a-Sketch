@@ -3,13 +3,13 @@
     padding: 0;
 }
 body{
-    background-color: grey;
+    background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
 }
-.container{
+.gridContainer{
     border: 1px solid blue;
     width: 600px;
     height: 600px;
@@ -18,12 +18,16 @@ body{
 }
 .box{
     transition: .4s;
-    box-shadow: 0 0 0 1px black;
+    box-shadow: 0 0 0 1px red;
     /* width: 25%;
     height: 25%; */
     /* border:1px solid red; */
-    background-color: green;
+    background-color: black;
 }
-/* .box:hover{
-    background-color: red;
-} */
+
+.gridSize{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+
+}
