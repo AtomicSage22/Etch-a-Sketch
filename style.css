@@ -10,7 +10,7 @@ body{
     min-height: 100vh;
 }
 .gridContainer{
-    border: 1px solid blue;
+    border: 5px solid black;
     width: 600px;
     height: 600px;
     display: flex;
@@ -18,11 +18,8 @@ body{
 }
 .box{
     transition: .4s;
-    box-shadow: 0 0 0 1px red;
-    /* width: 25%;
-    height: 25%; */
-    /* border:1px solid red; */
-    background-color: black;
+    /* box-shadow: 0 0 0 1px red; */
+    background-color: white;
 }
 
 .gridSize{
