@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="controls"></div>
-    <button class="gridSize">Change Grid Size</button>
-    <div class="gridContainer"></div>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    <div class="sketchMain">
+        <div class="controlButtons">
+            <button class="gridSize controls">Change Grid Size</button>
+            <button class="randomColors controls">Random Colors</button>
+            <div class="inputControls">
+                <input type="color" name="colorInput" id="colorInput">
+                <label for="colorInput" class="colorLabel">Choose Color</label>
+            </div>
+            <button class="reset controls">Reset</button>
+        </div>
+        <div class="gridContainer"></div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
